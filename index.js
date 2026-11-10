@@ -1,6 +1,6 @@
 export default {
   async fetch(request, env, ctx) {
-    const RENDER_URL = "https://anifininx-relay.onrender.com"; 
+    const RENDER_URL = "https://ia802807.us.archive.org/5/items/anifinix-stream-1775657879049/f1357432-c367-45dd-b68d-4af414712fa5.mp4"; 
     const url = new URL(request.url);
     const targetUrl = RENDER_URL + url.pathname + url.search;
 
